@@ -1,0 +1,799 @@
+body{
+    font-family: Arial;
+    background-color: rgb(251, 247, 247);
+    margin: 0;
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#foto_fobia{
+    border-bottom: 5px outset skyblue;
+    border-right: 5px outset rgb(130, 156, 168);
+}
+nav{
+    width:100% ;
+    margin: auto;
+    background-color: #060606c5;
+    font-size: 20px;
+    padding: 5px;
+    position:fixed;
+    top: 0;
+}
+
+.menu_horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu_horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+}
+.menu_horizontal > li:hover{
+    background-color: rgba(4, 4, 4,.7);
+    border-radius: 10px;
+}
+
+.menu_vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.menu_horizontal li:hover .menu_vertical{
+    display: inline-flex;
+}
+.menu_vertical li:hover{
+    background-color: rgba(68, 213, 245, 0.096);
+    border-radius: 10px;
+    padding: 10px;
+}
+.menu_vertical li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.direccion{
+    text-align: center;
+    margin-top: 20px;
+}
+
+a:hover{
+    color: rgb(251, 251, 251);
+}
+#header{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: whitesmoke;
+    background-image: url(imagenes/portada5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin: auto;
+    animation-name: pasarela;
+    animation-fill-mode:backwards;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes pasarela{
+    0%{background-image: url(imagenes/felicidad.jpg)}
+    20%{background-image: url(imagenes/fobia_social.png)}
+    40%{background-image: url(imagenes/kids.jpg)}
+    60%{background-image: url(imagenes/conulta2.jpg)}
+    80%{background-image: url(imagenes/consultorio1.jpg)}
+    100%{background-image: url(imagenes/portada5.jpg)}
+
+}
+
+
+
+h1{
+    font-size: 50px;
+}
+
+.contact{
+    text-align: center;
+}
+
+
+.mapa{
+
+    text-align: center;
+}
+
+.contacto{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.titulo_fobia{
+    margin-left: 80px;
+}
+#p2{
+    display: flex;
+    width: 490px;
+    margin-top: 80px;
+    margin-left: 75px;
+}
+.p2_div{
+
+    border-right: 5px inset skyblue;
+    border-bottom: 5px solid grey;
+    
+}
+
+.foto_ansiedad{
+    width: 450px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.stress_img{
+    width: 450px;
+    margin-top: 70px;
+    margin-right: 60px;
+}
+
+#comida_div{
+    border-left: 5px inset skyblue;
+    border-top: 5px solid grey;
+}
+.fobia{
+    display: flex;
+    text-align: center;
+}
+.titulo_trastorno{
+    margin-left: 75px;
+}
+p{
+    font-size: 18px;
+    margin: 80px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    display: flex;
+    margin-top: 70px;
+}
+in-flex{
+    flex: 1;
+}
+in-flex:first-child{
+    flex: 2;
+}
+
+.alimentacion{
+    display: flex;
+    width: 100%;
+}
+
+
+.foto_alimentos{
+    width:450px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: 0;
+}
+.fobia_social_img{
+    width: 85%;
+    margin-top: 80px;
+}
+.simbolo{
+    width: 60%;
+    text-align: left;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 70px;
+
+}
+
+.logo{
+    display: flex;
+}
+.titulo{
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+}
+.encabezado{
+    display: flex;
+    margin-top: 20px;
+}
+.subtitulo{
+    display: flex;
+    width: 100%;
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    background-color: rgba(177, 235, 118, 0.299);
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+}
+.redes{
+    width: 40px;
+}
+.redes_sociales{
+    text-align: center;
+}
+.siguenos{
+    text-align: center;
+}
+#porque{
+    text-align: center;
+}
+.lista_titulo{
+    margin-left: 70px;
+    text-align: start;
+    font-family: "Arial";
+    font-size: 18px;
+}
+.lista_2 li{
+    margin-left: 70px;
+    font-size: 18px;
+
+}
+#titulo2{
+    text-align: center;
+}
+.p_porque{
+    margin-bottom: 5px;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+
+
+
+.faq_preguntas{
+    margin-top: 5px;
+}
+
+.preguntas{
+    margin-top: 70px;
+}
+#faq_section{
+    display: flex;
+}
+
+.preguntas{
+    display: flex;
+    color: white;
+}
+
+
+
+#parrafo_fobia{
+    color: white;
+    background-color: rgba(5,7,12,0.85);
+    padding: 35px;
+    margin: 0px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+#inicio{
+    display: flex;
+    text-align: center;
+    background-color: rgba(5,7,12,0.85);
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio1{
+    display: flex;
+    text-align: center;
+    background-color: rgba(5,7,12,0.85);
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio2{
+    display: flex;
+    text-align: center;
+    background-color: rgba(5,7,12,0.85);
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio3{
+    display: flex;
+    text-align: center;
+    background-color: rgba(5,7,12,0.85);
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio4{
+    display: flex;
+    text-align: center;
+    background-color: rgba(5,7,12,0.85);
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio5{
+    display: flex;
+    text-align: center;
+    background-color: rgba(5,7,12,0.85);
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio_faq{
+    display: flex;
+    text-align: center;
+    background-color: rgba(5,7,12,0.85);
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.titulo_fobia{
+    background-color: rgba(5,7,12,0.85);
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 150px;
+    width: fit-content;
+    border: rgba(70, 131, 180, 0.204) solid 5px;
+    padding: 10px;
+}
+
+#alim{
+    background-color: rgba(5,7,12,0.85);
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    width: fit-content;
+    border: rgba(70, 131, 180, 0.204) solid 5px;
+    padding: 10px;
+}
+
+#body_inicio{
+    background-color: rgba(5, 5, 5, 0.457);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#body_fobia{
+    width: 100%;
+    height: 585px;
+    background-image: url(imagenes/fobia_social.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: rgba(5,7,12,0.85);
+    border: solid;
+    align-items: center;
+}
+
+#alimentacion{
+    width: 100%;
+    height: 585px;
+    background-image: url(imagenes/foto_alimentos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: rgba(5,7,12,0.85);
+    border: solid;
+    display: flex;
+
+}
+
+#ansiedad{
+    width: 100%;
+    height: 585px;
+    background-image: url(imagenes/anisedad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: rgba(5,7,12,0.85);
+    border: solid;
+}
+
+#panico{
+    width: 100%;
+    height: 585px;
+    background-image: url(imagenes/panico.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: rgba(5,7,12,0.85);
+    border: solid;
+}
+
+#stress{
+    width: 100%;
+    height: 585px;
+    background-image: url(imagenes/stress.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: rgba(5,7,12,0.85);
+    border: solid;
+}
+
+#casa{
+    margin-right: 20%;
+    margin-left: 47%;
+}
+
+#casa2{
+    margin-right: 20%;
+    margin-left: 50%;
+
+}
+
+#titulo_portada{
+    font-size: 80px;
+    background-color: rgba(4, 4, 4,.7);
+    padding: 50px;
+    margin-top: 140PX;
+
+}
+#simbolo{
+    width: 300px;
+    background-color: rgba(4, 4, 4,.7);
+}
+
+#seccion_contacto{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+#contacto{
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+}
+
+#contacto_div{
+    height: 500px;
+    width: 600px;
+    background-image: url(imagenes/portada6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    margin-left: 50px;
+    padding-right: 200px;
+    margin-top: 80px;
+}
+
+#mapa_imagen{
+    width: 400px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+#body_contacto{
+    width: 100%;
+    height: 500px;
+    background-image: url(imagenes/dos_caras.jpg);
+    background-size: cover;
+}
+
+
+
+#telefono{
+    background-color: rgba(37, 59, 121, 0.49);
+    width: fit-content;
+    padding: 60px;
+    margin-left: 30px;
+}
+
+#titulo_cont{
+    width: 375px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-top: 70px;
+    font-size: 50px;
+    background-color: rgba(20, 108, 230, 0.452);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 62px;
+    
+    color: rgba(249, 248, 248, 0.976);
+}
+
+.bodies{
+    background-image: url(imagenes/pared_negra.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+
+#iconos_contacto{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 130px;
+    left: 5px;
+    padding-right: 15px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.689);
+}
+
+#iconos_contacto:hover{
+    background: rgba(255, 255, 255, 0.212);
+    border-radius: 10px;
+}
+
+.botones_contacto:hover{
+    background: rgba(138, 141, 46, 0.56);
+    border-radius: 10px;
+}
+.btn_stress:hover{
+    background: rgba(138, 141, 46, 0.393);
+    border-radius: 10px;
+}
+
+#bodyfaq2{
+    background-image: url(imagenes/consultorio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+#faq_encabezado{
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.preguntas{
+    background-color: rgba(0, 0, 0, 0.383);
+    padding: 50px;
+    font-size: 60px;
+    padding-left: 80px;
+    margin-top: 150px;
+}
+
+.titulo_pregunta{
+    font-size: 30px;
+}
+
+.preg2{
+    margin-left: 50px;
+    background-color: rgba(213, 187, 148, 0.704);
+    width: fit-content;
+    padding-left: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 150px;
+}
+#p_me{
+    background-color: blue;
+}
+
+.faq_preguntas{
+    color: rgb(2, 2, 2);
+}
+
+#form_contacto{
+    width: 1030px;
+    height: 700px;
+    background-color: rgba(250, 235, 215, 0.528);
+    margin: auto;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-right: 90px;
+    margin-top: 50px;
+    color: rgb(6, 6, 6);
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+#form_vertical{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.638);
+    color: white;
+}
+
+textarea{
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.638);
+    color: white;
+}
+
+button{
+    margin: auto;
+    width: 150px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(68, 115, 233, 0.66);
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 0, 0.437);
+    cursor: pointer;
+}
+
+.nom{
+    width: 44.3%;
+
+}
+
+#foto_carril{
+    width: 500px;
+}
+
+#foto_lat_fobia{
+    width: 300px;
+    margin-right: 300px;
+    margin-left: 30px;
+    margin-top: 110px;
+    background-image: url(imagenes/stress.webp);
+    animation-name: carril;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes carril{
+    from{background-image: url(imagenes/anisedad.png)}
+    to{background-image: url(imagenes/fobia_social.png)}
+
+}
+
+#titulo_form{
+    background-color: rgba(73, 126, 249, 0.494);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+#why{
+    background-image: url(imagenes/consultorio1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cuando_consultar{
+    background-color: rgba(250, 235, 215, 0.459);
+    width: 100%;
+    height: 800px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.titulo_fobia{
+        opacity: 0; /* Inicialmente, el título es transparente */
+        top: 50%; /* Alinear desde el 50% de la parte superior */
+        transform: translateY(-50%); /* Centrar verticalmente */
+        left: -100px; /* Posición desde el borde izquierdo */
+        margin-top: 150px; /* Eliminar margen por defecto */
+        padding: 10px;
+        animation-name: slideIn;
+        animation-duration: 5s; /* Duración de la animación */
+        animation-fill-mode: forwards;
+    }
+    
+@keyframes slideIn {
+    0% {
+        left: -100px; /* Posición inicial fuera del lateral */
+        opacity: 0; /* Título transparente */
+    }
+    100% {
+        left: 0; /* Posición final en el lateral */
+        opacity: 1; /* Título completamente visible */
+    }
+}
+
+.p_move {
+    overflow: hidden; /* Esto asegura que el contenido que se desborda no sea visible fuera del contenedor */
+  }
+  
+  .in-flex {
+    animation: entradaDesdeDerecha 1s ease forwards;
+    opacity: 0; /* Empieza con opacidad 0 para que parezca que entra gradualmente */
+  }
+  
+  @keyframes entradaDesdeDerecha {
+    from {
+      transform: translateX(100%); /* Empieza fuera de la pantalla a la derecha */
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0); /* Se mueve a la posición original */
+      opacity: 1;
+    }
+  }
+  
+  #servicios_index {
+    width: 100%;
+    display: flex;
+    background-color: rgba(251, 250, 250, 0.166);
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  
+  .fila {
+    display: flex;
+  }
+  
+  figure {
+    margin-right: 0px; /* Margen entre cada imagen */
+    position: relative; /* Para posicionar el título con respecto a la imagen */
+  }
+  
+  figure img {
+    width: 200px; /* Tamaño fijo para todas las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0); /* Fondo semitransparente */
+    color: white;
+    padding: 5px;
+    margin: 0;
+  }
+  .link_fotos:hover{
+    transform: scale(1.2);
+  }
+  .fotitos{
+    width: 200px;
+    height: 150px;
+  }

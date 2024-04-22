@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacio Psicoterapia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body_contacto">
+    <nav id="nav">
+        <ul class="menu_horizontal">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#servicios">SERVICIOS</a>
+                <ul class="menu_vertical">
+                    <li><a href="fobia_social.html">Fobia Social</a></li>
+                    <li><a href="alimentacion.html">Alimentacion</a></li>
+                    <li><a href="ansiedad.html">Ansiedad</a></li>
+                    <li><a href="panico.html">Ataques de pánico</a></li>
+                    <li><a href="stress.html">Stress</a></li>
+                </ul>
+            </li>
+            <li><a href="faq.html">FAQ</a>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <section id="seccion_contacto">
+        <div id="contacto_div">
+            <h2 id="titulo_cont">Contacto:</h2> 
+            <div id="telefono">
+                <h3>Teléfono: +594777079</h3>
+                <h3>Email: gaston_lacrouts@gmail.com</h3>
+                <h3>Dirección: Juan Paulier 1111</h3> 
+                <h3>Montevideo, UY</h3> 
+            </div>
+        </div>
+        <div id="div_mapa">
+            <iframe id="mapa_imagen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.6731641286888!2d-56.14673642509733!3d-34.88955267264843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80e244ea3d8d%3A0xba21edf5c8469d84!2sCavour%203214%2C%2011600%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1699944523578!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="iconos_contacto">
+            <a class="botones_contacto" href="index.html" id="casa_contacto"><img width="48" height="48" src="https://img.icons8.com/fluency/48/home-page.png" alt="Volver al inicio"/></a>
+            <a class="botones_contacto" href="https://wa.me/+59894777079" target="_blank"><img src="imagenes/whatsapp1.png" alt=""></a>
+            <a class="botones_contacto" href="mailto:gaston@gmsil.com" target="_blank"><img src="imagenes/email.png" alt=""></a>
+            <a class="botones_contacto" href="https://www.instagram.com/espaciopsicoterapia/" target="_blank"><img src="imagenes/insta_color.png" alt=""></a>
+            <a class="botones_contacto" href="https://www.facebook.com" target="_blank"><img src="imagenes/boton_facebook.png" width="38px" alt=""></a>
+            <a class="botones_contacto" href="tel:+59894777079" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/apple-phone.png" alt="apple-phone"/></a>
+        </div>
+    </section>  
+    <section>
+        <form id="form_contacto" method="POST" action="/ruta">
+            <h1 id="titulo_form">Como podemos ayudarte?</h1>
+            <div>
+                <input type="text" name="name" placeholder="Nombre" class="nom">
+                <input type="text" name="lastname" placeholder="Apellido"  class="nom">
+            </div>
+            <div id="form_vertical">
+                <input type="email" name="email" placeholder="Email">
+                <input type="tel" name="tel" placeholder="Telefono">
+                <textarea name="consulta" id="mensaje" cols="30" rows="10" placeholder="Consulta..."></textarea>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        © 2023 Espacio Psicoterapia. Todos los derechos reservados.
+    </footer>
+</body>
